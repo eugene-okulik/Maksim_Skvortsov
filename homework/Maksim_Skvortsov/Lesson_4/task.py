@@ -9,10 +9,10 @@ print(my_dict['tuple'][-1])
 my_dict['list'].append('последний')
 my_dict['list'].pop(1)
 # print(my_dict['list'])
-my_dict['dict']['i am a tuple'] = 'test'
+my_dict['dict'][('i am a tuple',)] = {1, 6, 9}
 my_dict['dict'].pop('lastname')
 # print(my_dict['dict'])
 my_dict['set'].add(1000)
 my_dict['set'].remove(False)
 # print(my_dict['set'])
-print(my_dict.items())
+print(my_dict)
