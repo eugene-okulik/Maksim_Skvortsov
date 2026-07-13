@@ -7,4 +7,4 @@ for i in text.split():
     new_text = new_text.replace(",ing", "ing,")
     new_text = new_text.replace(".ing", "ing.")
 print(new_text)
-ifg
+ifggdg
